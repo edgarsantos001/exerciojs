@@ -1,10 +1,19 @@
 function numerosNegativos (vetor) {
-    let qtdNegativos = 0
+    let qtdNegativos = 0;
+    let negativeArray = []; 
     for(let i = 0; i < vetor.length; i++) {
         if(vetor[i] < 0) {
+           //Lendo Direto o numeros negativos
+           //Console.log(vetor[i])
+           //Adicionando os numeros negativos em um outro array
+           //negativeArray.push(vetor[i]);
             qtdNegativos++
         }
     }
+     //Lendo os numeros negativos do Array 
+     //for(let i = 0; i < negativeArray.length; i++) {
+     //Console.log(negativeArray[i])
+     //} 
     return qtdNegativos
 }
 
